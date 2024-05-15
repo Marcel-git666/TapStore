@@ -21,10 +21,6 @@
 		5173343823428CF8003FF47B /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5173343123428CF8003FF47B /* Bundle-Decodable.swift */; };
 		5173343A23428D09003FF47B /* appstore.json in Resources */ = {isa = PBXBuildFile; fileRef = 5173343923428D09003FF47B /* appstore.json */; };
 		5173345823434CE2003FF47B /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5173345723434CE2003FF47B /* SelfConfiguringCell.swift */; };
-		5173345A23434D0F003FF47B /* FeaturedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5173345923434D0F003FF47B /* FeaturedCell.swift */; };
-		5173346023435BAE003FF47B /* MediumTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5173345F23435BAE003FF47B /* MediumTableCell.swift */; };
-		5173346223435EDF003FF47B /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5173346123435EDF003FF47B /* SectionHeader.swift */; };
-		5173346623436ECD003FF47B /* SmallTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5173346523436ECD003FF47B /* SmallTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,10 +40,6 @@
 		5173343123428CF8003FF47B /* Bundle-Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		5173343923428D09003FF47B /* appstore.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = appstore.json; sourceTree = "<group>"; };
 		5173345723434CE2003FF47B /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
-		5173345923434D0F003FF47B /* FeaturedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCell.swift; sourceTree = "<group>"; };
-		5173345F23435BAE003FF47B /* MediumTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumTableCell.swift; sourceTree = "<group>"; };
-		5173346123435EDF003FF47B /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
-		5173346523436ECD003FF47B /* SmallTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +75,7 @@
 				5173341723428A25003FF47B /* AppDelegate.swift */,
 				5173341923428A25003FF47B /* SceneDelegate.swift */,
 				5173342D23428CF8003FF47B /* AppsViewController.swift */,
-				5173346523436ECD003FF47B /* SmallTableCell.swift */,
 				5173345723434CE2003FF47B /* SelfConfiguringCell.swift */,
-				5173345923434D0F003FF47B /* FeaturedCell.swift */,
-				5173345F23435BAE003FF47B /* MediumTableCell.swift */,
-				5173346123435EDF003FF47B /* SectionHeader.swift */,
 				5173342C23428CF8003FF47B /* ArcadeViewController.swift */,
 				5173342E23428CF8003FF47B /* GamesViewController.swift */,
 				5173342B23428CF8003FF47B /* SearchViewController.swift */,
@@ -181,14 +169,10 @@
 				5173343423428CF8003FF47B /* AppsViewController.swift in Sources */,
 				5173343323428CF8003FF47B /* ArcadeViewController.swift in Sources */,
 				5173343623428CF8003FF47B /* App.swift in Sources */,
-				5173346623436ECD003FF47B /* SmallTableCell.swift in Sources */,
 				5173343823428CF8003FF47B /* Bundle-Decodable.swift in Sources */,
-				5173345A23434D0F003FF47B /* FeaturedCell.swift in Sources */,
 				5173345823434CE2003FF47B /* SelfConfiguringCell.swift in Sources */,
-				5173346023435BAE003FF47B /* MediumTableCell.swift in Sources */,
 				5173343223428CF8003FF47B /* SearchViewController.swift in Sources */,
 				5173341A23428A25003FF47B /* SceneDelegate.swift in Sources */,
-				5173346223435EDF003FF47B /* SectionHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,13 +317,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B5C26XE59E;
+				DEVELOPMENT_TEAM = P3K32DW2KW;
 				INFOPLIST_FILE = TapStore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.TapStore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcel.TapStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -351,13 +335,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B5C26XE59E;
+				DEVELOPMENT_TEAM = P3K32DW2KW;
 				INFOPLIST_FILE = TapStore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.TapStore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcel.TapStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
