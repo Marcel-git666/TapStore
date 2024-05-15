@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FF653B12BF4B85D0015C82A /* FeaturedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF653B02BF4B85D0015C82A /* FeaturedCell.swift */; };
+		1FF653B32BF4BDE00015C82A /* UICollectionView+ReusableIdenfifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF653B22BF4BDE00015C82A /* UICollectionView+ReusableIdenfifier.swift */; };
+		1FF653BB2BF509160015C82A /* MediumTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF653BA2BF509160015C82A /* MediumTableCell.swift */; };
+		1FF653BD2BF5242F0015C82A /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF653BC2BF5242F0015C82A /* SectionHeader.swift */; };
 		5173341823428A25003FF47B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5173341723428A25003FF47B /* AppDelegate.swift */; };
 		5173341A23428A25003FF47B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5173341923428A25003FF47B /* SceneDelegate.swift */; };
 		5173341F23428A25003FF47B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5173341D23428A25003FF47B /* Main.storyboard */; };
@@ -24,6 +28,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FF653B02BF4B85D0015C82A /* FeaturedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCell.swift; sourceTree = "<group>"; };
+		1FF653B22BF4BDE00015C82A /* UICollectionView+ReusableIdenfifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+ReusableIdenfifier.swift"; sourceTree = "<group>"; };
+		1FF653BA2BF509160015C82A /* MediumTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumTableCell.swift; sourceTree = "<group>"; };
+		1FF653BC2BF5242F0015C82A /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		5173341423428A25003FF47B /* TapStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5173341723428A25003FF47B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5173341923428A25003FF47B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,7 +83,11 @@
 				5173341723428A25003FF47B /* AppDelegate.swift */,
 				5173341923428A25003FF47B /* SceneDelegate.swift */,
 				5173342D23428CF8003FF47B /* AppsViewController.swift */,
+				1FF653B22BF4BDE00015C82A /* UICollectionView+ReusableIdenfifier.swift */,
 				5173345723434CE2003FF47B /* SelfConfiguringCell.swift */,
+				1FF653B02BF4B85D0015C82A /* FeaturedCell.swift */,
+				1FF653BA2BF509160015C82A /* MediumTableCell.swift */,
+				1FF653BC2BF5242F0015C82A /* SectionHeader.swift */,
 				5173342C23428CF8003FF47B /* ArcadeViewController.swift */,
 				5173342E23428CF8003FF47B /* GamesViewController.swift */,
 				5173342B23428CF8003FF47B /* SearchViewController.swift */,
@@ -167,11 +179,15 @@
 				5173343523428CF8003FF47B /* GamesViewController.swift in Sources */,
 				5173341823428A25003FF47B /* AppDelegate.swift in Sources */,
 				5173343423428CF8003FF47B /* AppsViewController.swift in Sources */,
+				1FF653B32BF4BDE00015C82A /* UICollectionView+ReusableIdenfifier.swift in Sources */,
 				5173343323428CF8003FF47B /* ArcadeViewController.swift in Sources */,
 				5173343623428CF8003FF47B /* App.swift in Sources */,
 				5173343823428CF8003FF47B /* Bundle-Decodable.swift in Sources */,
+				1FF653B12BF4B85D0015C82A /* FeaturedCell.swift in Sources */,
 				5173345823434CE2003FF47B /* SelfConfiguringCell.swift in Sources */,
+				1FF653BD2BF5242F0015C82A /* SectionHeader.swift in Sources */,
 				5173343223428CF8003FF47B /* SearchViewController.swift in Sources */,
+				1FF653BB2BF509160015C82A /* MediumTableCell.swift in Sources */,
 				5173341A23428A25003FF47B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

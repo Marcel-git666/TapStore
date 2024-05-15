@@ -6,9 +6,15 @@
 //  Copyright © 2019 Hacking with Swift. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 protocol SelfConfiguringCell {
     static var reuseIdentifier: String { get }
     func configure(with app: App)
+}
+
+extension SelfConfiguringCell where Self: UICollectionViewCell {
+    static var reuseIdentifier: String {
+        String(describing: Self.self)
+    }
 }
